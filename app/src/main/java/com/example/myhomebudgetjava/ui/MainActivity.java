@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         binding.viewPager.setAdapter(new FinanceAdapter(this));
-        TabSetupUtil.setupTabLayoutMediator(this, binding.tabLayout, binding.viewPager);
+        TabSetupUtil.tabLayoutSetup(this, binding.tabLayout, binding.viewPager);
     }
 }
