@@ -9,17 +9,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.myhomebudgetjava.databinding.FragmentBillsBinding;
+import com.example.myhomebudgetjava.databinding.FragmentDetailInfoBinding;
 
 
 public class BillsFragment extends Fragment {
 
-    private FragmentBillsBinding binding;
+    private FragmentDetailInfoBinding binding;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        binding = FragmentBillsBinding.inflate(inflater);
+        binding = FragmentDetailInfoBinding.inflate(inflater);
         return binding.getRoot();
     }
 }
